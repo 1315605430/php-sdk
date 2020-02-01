@@ -8,9 +8,9 @@ use Qiniu\Auth;
 use Qiniu\Storage\UploadManager;
 
 // 需要填写你的 Access Key 和 Secret Key
-$accessKey = getenv('QINIU_ACCESS_KEY');
-$secretKey = getenv('QINIU_SECRET_KEY');
-$bucket = getenv('QINIU_TEST_BUCKET');
+$accessKey = "oziFhoOBuAFM34pKCXFfRHfLBRc_hnlLYQNYP2ty";
+$secretKey = "SwF6vo0vh73yyKPfmE9Y7D62Tnw8o3ChsbL-OUZJ";
+$bucket = "xpythinkphp";
 
 // 构建鉴权对象
 $auth = new Auth($accessKey, $secretKey);
